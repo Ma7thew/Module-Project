@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Formula Sheet Module
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+    <!--Formulas-->
+    <h1>
+        <span>10-1 <a href="https://en.wikipedia.org/wiki/Physics#:~:text=Physics%20is%20the%20scientific%20study,physics%20is%20called%20a%20physicist." target="_blank">Physics</a> Formula Sheet
+        </span> </h1>
+    <div id="law">
+    <h3>Newton's Law of Motion</h3>
+<ol>
+    <li>An object will not change its motion unless a force acts on it.</li>
+    <li>The force on an object is equal to its mass times its acceleration. </li>
+    <li>for every action (force) in nature there is an equal and opposite reaction</li>
+</ol>
+</div>
+<div id="Sheet">
+<span id="Formula">
+    <p id="a">→v = →d/t or →v = →∆d/t </p>
+    <p id="hide1"><img src="img/velocity.jpg" alt="Velocity" width="300px"></p>
+<p id="b"> →a = (→vf-→vi)/∆t</p>
+<p id="hide2"><img src="img/Acceleration.gif" alt="Acceleration" width="300px"> </p>
+  <p id="c">→F = m→a</p>
+  <p id="hide3"><img src="img/Force.jpg" alt="Force" width="300px"> </p>
+
+  <p id="d">→Fg = m→g  </p>
+  <p id="hide4">m = Fg/g || g = Fg/m</p>
+
+  <p id="e">W = Fd</p>
+  <p id="hide5"><img src="img/Work.jpg" alt="Work" width="300px"></p>
+
+  <p id="f">Ep = mgh</p>
+  <p id="hide6"><img src="img/Potetential Energy.jpg" alt="Ep" width="300px"></p>
+   
+  <p id="g">Ek = 1/2(mv²)</p>
+  <p id="hide7"><img src="img/Kinetic Energy.jpg" alt="Ek" width="300px"></p>
+
+  <p id="h">Em = Ek + Ep</p>
+  <p id="hide8"><img src="img/Mech.png" alt="Em" width="300px"></p>
+
+  <p id="i">%Efficieny = output/input x 100%</p>
+  <p id="hide9"><img src="img/Efficiency.jpg" alt="Efficiency" width="300px"></p>
+
+  <p id="j">Slope = rise/run = ∆y/∆x = (y2-y1) / (x2 - x1)</p>
+  <p id="hide10"><img src="img/slope1.jpg" alt="Slope" width="300px"></p>
+
+</span>
+<!--Definitions-->
+<span id="Definition">
+    <p>→v = velocity (m/s)></p>
+    <p>v = speed (m/s)</p>
+    <p>→d = displacement (m)</p>
+    <p>d = distance (m)</p>
+    <p>t = time elapsed (s)</p>
+    <p>→a = acceleration (m/s²)</p>
+    <p>→F = force (N)</p>
+    <p>m = mass (kg)</p>
+    <p>Fg = magnitude of force due to gravity(N)</p>
+    <p>g = magnitude of acceleration due to gravity (9.81 m/s²)</p>
+    <p>W = work (Nm or J)</p>
+    <p>Ep = gravitational potential energy (J)</p>
+    <p>h = height (m)</p>
+    <p>Ek = kinetic energy (J)</p>
+    <p>Em = mechanical energy (J)</p>
+    <h3><i>Acceleration</i> due to <i>gravity:</i> →g = 9.81m/s²</h3>
+</span>
+<!--Table-->
+<div id="table">
+<table>
+    <tr>
+    <div>
+        <th>Prefix</th></div>
+        <div>
+    <th>Symbol</th></div>
+    <div>
+    <th><i>Factor</i> by Which <i>Base</i> Unit Is <i>Multiplied</i></th>
+</div>
+
+</tr>
+<tr>
+    <p>
+    <div>
+    <td>tera<p>giga</p>mega</td>
+</div>
+<div>
+    <td>T <p>G</p>M</td>
+</div>
+<div>
+
+    <td>1 000 000 000 000 =10^12 <p>1 000 000 000 = 10^9</p>1 000 000 = 10^6</td>
+</div>
+</p>
+</tr>
+
+
+
+<!--make list numbers increasing from common base units to tera. and decreasing fomr common base units to pico.-->
+
+<span>
+<tr>
+    <div>
+    <td>kilo <p>hecto</p> deca <p>Common Base Units*</p> deci <p>centi</p>milli</td>
+</div>
+<div>
+    <td>k <p>h</p> da <p>-</p> d <p>c</p>m</td>
+</div>
+<div>
+    <td>1 000 = 10^3 <p>100 = 10^2</p>10 = 10^1 <p>1 = 10^0</p><p>0.1 = 10^-1</p><p> 0.01 = 10^-2</p>
+    0.001 = 10^-3</td>
+</div>
+</tr>
+
+<tr>
+    <div>
+    <td>micro <p>nano</p>pico</td>
+</div>
+<div>
+    <td>µ<p>n</p>p</td>
+</div>
+<div>
+    <td>0.000 001 = 10^-6 <p>0.000 000 001 = 10^-9</p>0.000 000 000 001 = 10^-12</td>
+</div>
+</tr>
+</table>
+</span>
+</div>
+</div>
+<p>
+    <span>
+    <input type="" id="own" placeholder="Exponent of a owned Prefix">
+</span>
+<span>-</span>
+<span>
+    <input type="text" placeholder="Exponent of needed Prefix">
+</span>
+<span><button>Result</button></span>
+<span><input type="text" placeholder="Answer"></span>
+</p>
+<span id="example"><button>Example</button></span>
+
+<div id="hidden">
+<p class="Ex">Ex: Turn <b>152 Millimeters</b> <i>(Owned Exponent = -3)</i> into <b>Kilometers</b> <i>(Needed Exponent = 3)</i>.</p> <p>
+    <span>
+        <input placeholder="^-3" id="hold">
+    </span>
+    <span>-</span>
+    <span>
+        <input placeholder="^3">
+    </span>
+    <span>=</span>
+    <span><input placeholder="^-6"></span>
+    <p class="Ex">152mm = 0.000152km</p>
+</p></div>
+<p id="button">Don't know how to use this table? <a href="https://www.youtube.com/watch?v=TY4Yoyur3X4&list=PLy2-paJiBDz9EsE6evWRlqPawPLZfZdfc&index=1" target="_blank"><button>Click me</button></p></a>
+</body>
+
+</html>

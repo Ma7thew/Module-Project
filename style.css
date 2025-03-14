@@ -1,0 +1,322 @@
+html {
+    background-image: url(img/dark.png);
+    background-size: contain;
+    background-color: white;
+    }
+    
+h1 {
+    margin-left: 180px;
+    margin-right: 200px;
+    padding-left: 20px;
+    border-radius: 30px;
+    background-color: rgb(141,123,104);
+    border: 2px solid rgb(200,182,166);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    border: 3px solid black;
+ border-radius: 30px;
+        width: 800px;
+    margin: 70px auto;
+    background-color: rgb(250,245,239);
+    padding: 30px;
+    transition: 2s;
+    }
+    
+
+    
+ th, td {
+        border: 2px solid black;
+        padding: 8px;
+        
+        text-align: center;
+    }
+
+a {
+    text-decoration: none;
+    font-family: cursive;
+    color: burlywood;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+    
+
+#Sheet {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+ img {
+    border: 1px solid burlywood;
+}
+
+
+/*Hover to effect another Element*/
+#a {
+    cursor: pointer;
+    border: 0px solid none;
+    padding-bottom: 0px;
+    
+}
+
+#hide2 {
+    display: none;
+}
+
+#b {
+    cursor: pointer;
+   
+   
+}
+
+#b:hover {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ transition: 2s;
+}
+
+#b:hover + #hide2 {
+   
+    display: block;
+    padding-bottom: 20px;
+}
+
+#hide3 {
+    display: none;
+}
+
+#c {
+    cursor: pointer;
+}
+
+#c:hover + #hide3 {
+  
+
+    display: block;
+    padding-bottom: 20px;
+}
+
+#hide4 {
+    display: none;
+}
+
+#d {
+    cursor: pointer;
+}
+
+#d:hover + #hide4 {
+    color: red;
+    display: block;
+    padding-bottom: 20px;
+}
+
+#hide5{
+    display: none;
+}
+
+#e {
+    cursor: pointer;
+}
+
+#e:hover + #hide5 {
+    display: block;
+    padding-bottom: 20px;
+}
+
+#hide6 {
+    display: none;
+}
+
+#f {
+    cursor: pointer;
+}
+
+#f:hover + #hide6 {
+    display: block;
+    padding-bottom: 20px;
+    
+}
+
+#hide7{
+    display: none;
+}
+
+#g{
+    cursor: pointer;
+}
+
+#g:hover + #hide7 {
+    display: block;
+    padding-bottom: 20px;
+  
+}
+
+#hide8{
+    display: none;
+}
+
+#h {
+    cursor: pointer;
+}
+
+#h:hover + #hide8 {
+
+    display: block;
+    padding-bottom: 20px;
+}
+
+#hide9 {
+    display: none;
+}
+
+#i {
+    cursor: pointer;
+}
+
+#i:hover + #hide9 {
+
+    display: block;
+    padding-bottom: 20px;
+}
+
+#j {
+    cursor: pointer;
+}
+
+#hide10 {
+
+display: none;
+}
+
+#j:hover + #hide10 {
+
+    display: block;
+    padding-bottom: 20px;
+}
+
+#hide1 {
+    transition-duration: 0.5s;
+    display: none;
+}
+
+#a:hover + #hide1 {
+    display: block;
+    padding-bottom: 20px;
+}
+
+/*Formula + Definition*/
+
+#Formula {
+    padding-left: 10px;
+    padding-right: 4px;
+    display: inline-table;
+        border: 2px solid;
+        margin-left: 18px;
+        transition: 2s;
+        font-size: 13.3px;
+        background-color: rgb(241,222,201);
+        font-family: cursive;
+}
+
+#Formula:hover {
+    transition: 0s;
+    border: 3px solid rgb(200,182,166);
+}
+
+
+
+#Definition {
+    background-color: rgb(241,222,201);
+    transition: 1s;
+    padding-left: 10px;
+    padding-right: 8px;
+    display: inline-table;
+    border: 2px solid;
+    margin-left: 33px;
+    border: 2px solid black;
+    font-family:cursive;
+    font-size: 14px;
+}
+
+#Definition:hover {
+    transition: 0s;
+    border: 3px solid rgb(200,182,166);
+}
+
+table {
+    transition: 1s;
+    background-color: rgb(241,222,201);
+}
+
+#table {
+    margin-left: 100px;
+    font-family: cursive;
+}
+
+th:hover {
+    background-color:rgb(200,182,166);
+    border: 3px solid rgb(141,123,104);
+}
+
+td:hover {
+    background-color:rgb(200,182,166);
+    border: 3px solid rgb(141,123,104);
+}
+
+
+#button {
+    font-family: cursive;
+    text-align: center;
+}
+
+button {
+  
+    border-radius: 5px;
+}
+
+/*Newtons Law of Motion*/
+
+#law {
+    margin-bottom: 20px;
+    font-family: cursive;
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(241,222,201);
+    transition: 1s;
+}
+
+#law:hover {
+    transition: 0s;
+    border: 3px solid rgb(200,182,166);
+}
+
+/*Inputs + Buttons */
+
+#example:hover + #hidden {
+    display: block;
+}
+
+#hidden {
+    display: none;
+}
+
+#example {
+    margin-left: 350px;
+}
+
+#own {
+    margin-left: 110px;
+}
+
+.Ex {
+text-align: center;
+}
+
+#hold {
+margin-left: 110px;
+}
+
